@@ -219,7 +219,7 @@ function randomWords(diff){
 
 // Logout
 logout.addEventListener('click',function(){
-  window.location.href='reg.html';
+  window.location.href='index.html';
 });
 
 const create_recordApi='https://prod-102.westus.logic.azure.com:443/workflows/ec0e0d7a5e1c47768cd9b39690ca43c1/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=A4w1tFrul_UMyBwo0kRVSSeg-Pf2lVW4lHpDxoAKkg4';
